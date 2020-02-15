@@ -3,9 +3,13 @@ Windows 10のVirtualBox上にCentOSを導入して初期設定する際の手順
 手順が確立したらVagrantとansibleを使用して自動的にプロビジョニングできるようにする予定です。
 
 ### 前提バージョン
-手順を作成した際のバージョンは下記の通りです。  
+手順を作成した際のバージョンは下記の通り。  
 2020/2/15時点の最新版  
-- CentOSのISOイメージのダウンロード  
+|  Software  |  Version  |  Description  |    
+| ---- | ---- |  ----  |  
+|  CentOS  |  7  |  CentOS-7-x86_64-DVD-1908.iso  |  
+
+
 
 
 ### 事前準備
