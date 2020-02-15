@@ -28,13 +28,13 @@ VirtualBox Managerから新規で作成して下記の設定を行う。
 
 ### OSインストール
 VirtualBox Managerから起動  
-Install CentOS 7 を選択  
-インストーラが立ち上がる  
-日本語を選択  
-全てデフォルトでインストールの開始  
-rootパスワード`zaq1"wsx`  
-user追加`ktsuda` / `qwe234rty`  
-再起動して導入完了  
+1. Install CentOS 7 を選択してインストーラを起動  
+2. 言語で`日本語`を選択  
+3. 全てデフォルトで`インストールの開始`  
+4. 下記のユーザーを作成  
+root / zaq1"wsx  
+ktsuda / qwe234rty  
+5. 再起動して導入完了  
 
 ### ネットワーク設定
 /etc/sysconfig/network-scripts/ifcfg-enp0s3  
