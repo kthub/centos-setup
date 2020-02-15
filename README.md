@@ -13,10 +13,12 @@ Windows 10のVirtualBox上にCentOSを導入して初期設定する際の手順
 
 ### VM作成（VirtualBox）
 - VirtualBox Managerから新規で作成  
+
 |  設定項目  |  設定値  |  
 | ---- | ---- |  
 |  メモリ  |  4GB  |  
 |  仮想HDD  |  40GB  |  
+
 - ネットワーク構成  
 
 ブリッジアダプタで構成
