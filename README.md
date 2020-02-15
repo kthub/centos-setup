@@ -38,10 +38,9 @@ user追加`ktsuda` / `qwe234rty`
 
 ### ネットワーク設定
 /etc/sysconfig/network-scripts/ifcfg-enp0s3  
-下記を修正または追加
 ```
 BOOTPROTO=static
-IPADDR=192.168.1.xxx
+IPADDR=192.168.1.200
 NETMASK=255.255.255.0
 GATEWAY=192.168.1.1
 IPV6INIT=no
@@ -50,20 +49,32 @@ IPV6_DEFROUTE=no
 ONBOOT=yes
 ```
 /etc/sysconfig/network  
-下記を追加
 ```
 NETWORKING=yes
 NETWORKING_IPV6=no
 GATEWAY=192.168.1.1
+HOSTNAME="wasnd01"
 ```
 
 /etc/resolve.conf  
-下記を追加
 ```
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
+/etc/hosts
+```
+#127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+#::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1   wasnd01 localhost localhost.localdomain localhost4 localhost4.localdomain4
+192.168.1.200 wasnd01
+192.168.1.201 wasnd02
+```
+
 ### ソフトウェア導入
-- Docker
-- 
+- yumの更新  
+```
+yum update
+```
+- Docker  
+TBD
