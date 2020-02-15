@@ -1,4 +1,4 @@
-# centos-setup
+# CentOS環境の構築手順
 Windows 10環境のVirtualBox上にCentOSを導入して初期設定する際の手順です。手順が確立したらVagrantとansibleを使用して自動的にプロビジョニングできるようにする予定です。
 
 ### 事前準備
