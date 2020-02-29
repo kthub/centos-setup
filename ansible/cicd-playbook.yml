@@ -1,0 +1,10 @@
+---
+- name: cicd
+  hosts: all
+  tasks: 
+    - name: configure DNS server
+      copy:
+        dest: /etc/resolve.conf
+        content: |+
+          nameserver 8.8.8.8
+          nameserver 8.8.4.4

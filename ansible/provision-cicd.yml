@@ -1,7 +1,0 @@
----
-- name: cicd
-  hosts: all
-  tasks: 
-    - name: sample
-      debug:
-        msg: "This is sample."
