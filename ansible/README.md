@@ -4,5 +4,5 @@
 ```
 ### Run a playbook
 ```
-$ ansible-playbook -i inventory cicd-playbook.yml
+# ansible-playbook -i inventory cicd-playbook.yml
 ```
